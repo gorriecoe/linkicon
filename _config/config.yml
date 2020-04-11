@@ -1,0 +1,6 @@
+---
+Name: linkiconconfig
+---
+gorriecoe\Link\Models\Link:
+  extensions:
+    - gorriecoe\LinkIcon\LinkIconExtension
