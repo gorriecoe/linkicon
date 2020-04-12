@@ -31,7 +31,7 @@ class LinkIconExtension extends DataExtension
     ];
 
     /**
-     * Defines tab to insert the icon_folder fields into.
+     * Defines tab to insert the icon fields into.
      * @var string
      */
     private static $icon_tab = 'Main';
