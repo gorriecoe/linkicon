@@ -34,7 +34,7 @@ class LinkIconExtension extends DataExtension
      * Defines tab to insert the icon fields into.
      * @var string
      */
-    private static $icon_tab = 'Main';
+    private static $icon_tab = 'Settings';
 
     /**
      * Defines folder to store the icons assets into.
@@ -72,7 +72,7 @@ class LinkIconExtension extends DataExtension
             );
         } else {
             $fields->addFieldToTab(
-                $tab,
+                'Root.' . $tab,
                 $field
             );
         }
