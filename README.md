@@ -42,5 +42,18 @@ Defines tab to insert the icon_folder fields into.
 
 ```yml
 gorriecoe\Link\Models\Link:
-  icon_tab: 'SomeTabName' // Defaults to 'Main'
+  icon_tab: 'SomeTabName' // Defaults to 'Settings'
+```
+
+Defines the allowed file extensions for the icon field.
+
+```yml
+gorriecoe\Link\Models\Link:
+  icon_allowed_extensions:
+    - 'gif'
+    - 'jpeg'
+    - 'jpg'
+    - 'png'
+    - 'bmp'
+    - 'ico'
 ```
